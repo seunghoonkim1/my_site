@@ -1,4 +1,4 @@
-title = "Notre-Dame de Paris"
+title = "Seung Hoon Kim"
 baseURL = "https://gohugo-theme-ananke.pages.dev"
 languageCode = "en-us"
 theme = "ananke"
@@ -17,7 +17,7 @@ enableRobotsTXT = true
 
 [params]
   text_color = ""
-  author = ""
+  author = "Seung Hoon Kim"
   favicon = ""
   site_logo = ""
   description = "The last theme you'll ever need. Maybe."
@@ -25,11 +25,28 @@ enableRobotsTXT = true
   background_color_class = "bg-black"
   recent_posts_number = 3
 
-[[params.ananke_socials]]
-name = "twitter"
-url = "https://twitter.com/GoHugoIO"
+[params.ananke_socials]
+    [params.ananke_socials.linkedin]
+      name = "linkedin"
+      url = "http://www.linkedin.com/in/seung-hoon-kim"
+      color = "#008cff"
+    [params.ananke_socials.github]
+      name = "github"
+      url = "https://github.com/seunghoonkim1"
+      color = "#008cff"
+
 
 [[menu.main]]
   name = "Home"
   url = "/"
   weight = 10
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+  weight = 20
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact"
+  weight = 40
